@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-3.1.1"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-3.1.1  https://www.decision-deck.org/xmcda/_downloads/XMCDA-3.1.1.xsd">
+    <programParameters>
+        <parameter id="consistencyMeasure">
+            <values>
+                <value>
+                    <label>epsilon</label>
+                    <!--                    <label>epsilon_prime</label>-->
+                    <!--                    <label>rough_membership</label>-->
+                </value>
+            </values>
+        </parameter>
+        <parameter id="consistencyThreshold">
+            <values>
+                <value>
+                    <real>0.0</real>
+                    <!--                    <real>0.1</real>-->
+                    <!--                    <real>1.0</real>-->
+                </value>
+            </values>
+        </parameter>
+        <parameter id="allowedObjectsType">
+            <values>
+                <value>
+                    <label>positive_region</label>
+                    <!--                    <label>positive_and_boundary_regions</label>-->
+                    <!--                    <label>whole_dataset</label>-->
+                </value>
+            </values>
+        </parameter>
+        <parameter id="typeOfInducedRules">
+            <values>
+                <value>
+                    <label>possible</label>
+                </value>
+            </values>
+        </parameter>
+    </programParameters>
+</xmcda:XMCDA>

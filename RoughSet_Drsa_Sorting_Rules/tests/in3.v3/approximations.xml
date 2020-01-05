@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2019/XMCDA-3.2.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2019/XMCDA-3.2.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.2.0.xsd">
+    <approximations>
+        <approximation mcdaConcept="lower">
+            <alternativesSet id="">
+                <element>
+                    <alternativeID>a4</alternativeID>
+                </element>
+            </alternativesSet>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <upperBound><!-- at most C1 -->
+                            <categoryID>C1</categoryID>
+                        </upperBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </approximation>
+
+        <approximation mcdaConcept="lower">
+            <alternativesSet id="">
+                <element>
+                    <alternativeID>a3</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a4</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a6</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a7</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a8</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a9</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a11</alternativeID>
+                </element>
+            </alternativesSet>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <upperBound><!-- at most C2 -->
+                            <categoryID>C2</categoryID>
+                        </upperBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </approximation>
+
+        <approximation mcdaConcept="lower">
+            <alternativesSet id="">
+                <element>
+                    <alternativeID>a1</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a2</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a3</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a5</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a7</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a8</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a10</alternativeID>
+                </element>
+            </alternativesSet>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound><!-- at least C2 -->
+                            <categoryID>C2</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </approximation>
+
+        <approximation mcdaConcept="lower">
+            <alternativesSet id="">
+                <element>
+                    <alternativeID>a1</alternativeID>
+                </element>
+                <element>
+                    <alternativeID>a2</alternativeID>
+                </element>
+            </alternativesSet>
+            <decisions>
+                <decision>
+                    <categoriesInterval>
+                        <lowerBound><!-- at least C3 -->
+                            <categoryID>C3</categoryID>
+                        </lowerBound>
+                    </categoriesInterval>
+                </decision>
+            </decisions>
+        </approximation>
+    </approximations>
+</xmcda:XMCDA>
